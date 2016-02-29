@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44705" started-at="2016-02-29T03:28:27Z" finished-at="2016-02-29T03:29:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44705" started-at="2016-02-29T03:28:27Z" finished-at="2016-02-29T03:29:12Z">
+      <class name="myretailTest.FindAllProductsInStock">
+        <test-method status="PASS" signature="setup()[pri:0, instance:myretailTest.FindAllProductsInStock@65f9b56b]" name="setup" is-config="true" duration-ms="5668" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAllProducts()[pri:0, instance:myretailTest.FindAllProductsInStock@65f9b56b]" name="verifyAllProducts" duration-ms="30718" started-at="2016-02-28T21:28:38Z" finished-at="2016-02-28T21:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProducts -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myretailTest.FindAllProductsInStock@65f9b56b]" name="teardown" is-config="true" duration-ms="157" started-at="2016-02-28T21:29:09Z" finished-at="2016-02-28T21:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myretailTest.FindAllProductsInStock -->
+      <class name="myretailTest.FindAllProductsOutOfStock">
+        <test-method status="PASS" signature="setup()[pri:0, instance:myretailTest.FindAllProductsOutOfStock@6cf5b81a]" name="setup" is-config="true" duration-ms="8640" started-at="2016-02-28T21:28:33Z" finished-at="2016-02-28T21:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAllProducts()[pri:0, instance:myretailTest.FindAllProductsOutOfStock@6cf5b81a]" name="verifyAllProducts" duration-ms="30461" started-at="2016-02-28T21:28:41Z" finished-at="2016-02-28T21:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProducts -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myretailTest.FindAllProductsOutOfStock@6cf5b81a]" name="teardown" is-config="true" duration-ms="162" started-at="2016-02-28T21:29:12Z" finished-at="2016-02-28T21:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myretailTest.FindAllProductsOutOfStock -->
+      <class name="myretailTest.FindAllProductsPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:myretailTest.FindAllProductsPage@869fb6d]" name="setup" is-config="true" duration-ms="7846" started-at="2016-02-28T21:28:27Z" finished-at="2016-02-28T21:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAllProducts()[pri:0, instance:myretailTest.FindAllProductsPage@869fb6d]" name="verifyAllProducts" duration-ms="30359" started-at="2016-02-28T21:28:35Z" finished-at="2016-02-28T21:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProducts -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:myretailTest.FindAllProductsPage@869fb6d]" name="searchProduct" duration-ms="30346" started-at="2016-02-28T21:28:35Z" finished-at="2016-02-28T21:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchWithoutProductId()[pri:0, instance:myretailTest.FindAllProductsPage@869fb6d]" name="searchWithoutProductId" duration-ms="3643" started-at="2016-02-28T21:28:35Z" finished-at="2016-02-28T21:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutProductId -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myretailTest.FindAllProductsPage@869fb6d]" name="teardown" is-config="true" duration-ms="173" started-at="2016-02-28T21:29:06Z" finished-at="2016-02-28T21:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myretailTest.FindAllProductsPage -->
+      <class name="myretailTest.LandingPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="setup" is-config="true" duration-ms="4811" started-at="2016-02-28T21:28:27Z" finished-at="2016-02-28T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyThreeButtons()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="verifyThreeButtons" duration-ms="218" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThreeButtons -->
+        <test-method status="PASS" signature="verifyTableHeader()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="verifyTableHeader" duration-ms="255" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeader -->
+        <test-method status="PASS" signature="verifySearchProduct()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="verifySearchProduct" duration-ms="186" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="verifyPageTitle" duration-ms="138" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:myretailTest.LandingPageTest@4ba43077]" name="teardown" is-config="true" duration-ms="356" started-at="2016-02-28T21:28:32Z" finished-at="2016-02-28T21:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- myretailTest.LandingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
